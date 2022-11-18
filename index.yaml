@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  ml-day2-kafka:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-18T10:29:38.955613514+01:00"
+    description: A demo helm chart for cluster setup (day2)
+    digest: 565402891ea90e8b8c8d1988d3e8bba9577cde5e837783947056362494ee352e
+    name: ml-day2-kafka
+    type: application
+    urls:
+    - ml-day2-kafka-0.1.0.tgz
+    version: 0.1.0
   ml-demo-template:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-18T10:07:09.867807358+01:00"
+    created: "2022-11-18T10:29:38.95578668+01:00"
     description: A demo hypershift cluster-template to create
     digest: 1a471554cab4778dda9590186da5162528133bd44599ab3ca7df512e319f7733
     name: ml-demo-template
@@ -11,4 +22,4 @@ entries:
     urls:
     - ml-demo-template-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-18T10:07:09.867471354+01:00"
+generated: "2022-11-18T10:29:38.95532755+01:00"
